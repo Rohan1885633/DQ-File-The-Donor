@@ -47,12 +47,12 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "rohankumarjena90")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
-VERIFY2_URL = environ.get('VERIFY2_URL', "mdisklink.link")
-VERIFY2_API = environ.get('VERIFY2_API', "4fa150d44b4bf6579c24b33bbbb786dbfb4fc673")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'clicksfly.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c2150e28189cefefd05f8a9c5c5770cc462033e3')
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/The_Movies_Officially/653")
+VERIFY2_URL = environ.get('VERIFY2_URL', "Ziplinker.net")
+VERIFY2_API = environ.get('VERIFY2_API', "cc40becc32e5b8f5c78bae3bf9db34bbf8336740")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Ziplinker.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'cc40becc32e5b8f5c78bae3bf9db34bbf8336740')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
