@@ -6,7 +6,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/AI_BOTZ_OWNER_BOT'>☠️٨ꪀσ𐌽𝓎ᵐσ𝐮𝘴 👿</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/ROHANKUMARJENA'>RJ Support </a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
@@ -145,8 +145,8 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ☠️٨ꪀσ𐌽𝓎ᵐσ𝐮𝘴 👿
-• ᴜꜱᴇʀɴᴀᴍᴇ : @AI_BOTZ_OWNER_BOT
+• ꜰᴜʟʟ ɴᴀᴍᴇ : RJ Support 
+• ᴜꜱᴇʀɴᴀᴍᴇ : @ROHANKUMARJENA
 • ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/PLEASE_DONT_TRY_TO_FIND_ME'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
@@ -191,8 +191,8 @@ Nᴀᴍᴇ - {}"""
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 <b>
 =========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : https://t.me/the_ai_botz
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : https://t.me/AI_BOTZ_SUPPORT
+▫️ ᴄʜᴀɴɴᴇʟ : https://t.me/RJ_BOTS_2024
+▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : https://t.me/The_MoviesRequest1
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
