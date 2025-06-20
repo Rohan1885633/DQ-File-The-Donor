@@ -27,8 +27,8 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7051286976').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002073678267').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8182973519').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002535073944').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('-1001891085801')
@@ -42,27 +42,27 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rohankumarjena90:tmLnt0G4JmvGgi2J@cluster0.ihscnfk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "rohankumarjena90")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rohankumar188:<iCjhcYaw27UisonB>@cluster0.l59u52s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Rohankumar188")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/The_Movies_Officially/653")
-VERIFY2_URL = environ.get('VERIFY2_URL', "Ziplinker.net")
-VERIFY2_API = environ.get('VERIFY2_API', "cc40becc32e5b8f5c78bae3bf9db34bbf8336740")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'cc40becc32e5b8f5c78bae3bf9db34bbf8336740')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "")
+VERIFY2_URL = environ.get('VERIFY2_URL', "gplinks.com")
+VERIFY2_API = environ.get('VERIFY2_API', "44a9f2231082c84545f52327bca23043c552a9ae")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '44a9f2231082c84545f52327bca23043c552a9ae')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/The_MoviesRequest1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TheMoviesRequest1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RJ_BOTS_2024')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002007900629))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'The_MoviesRequest1')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002349285895)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TheMoviesRequest1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
